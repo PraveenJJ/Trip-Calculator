@@ -56,7 +56,7 @@ body {
 }
 
 #header {
-    font-size: 39px;
+    font-size: 28px;
 }
 
 #calculate {
@@ -65,7 +65,8 @@ body {
 }
 
 .app-window {
-    width: 370px;
+    margin-top: -30px;
+    width: 320px;
     height: 613px;
     background-color: #ffffff;
     border-radius: 10px;
