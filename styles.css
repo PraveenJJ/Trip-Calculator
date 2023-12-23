@@ -57,6 +57,7 @@ body {
 
 #header {
     font-size: 28px;
+    margin-top: -20px;
 }
 
 #calculate {
@@ -66,20 +67,28 @@ body {
 
 .app-window {
     margin-top: -50px;
-    width: 320px;
-    height: 613px;
+    width: 350px;
+    height: 610x;
     background-color: #ffffff;
     border-radius: 10px;
     box-shadow: 0px 0px 20px rgb(0, 0, 0);
     display: flex;
     flex-direction: column;
     overflow-y: auto;
-    /* Hide the scrollbar for the entire window */
 }
-.app-container {
+
+.calculate-distance {
     padding: 20px;
     display: flex;
     flex-direction: column;
+    margin-top: -20px;
+}
+
+.calculate-fuel {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    margin-top: -20px;
 }
 
 h1 {
@@ -90,4 +99,50 @@ h1 {
 .odometer {
     font-size: 40px;
     margin-top: -0px;
+}
+
+/* new */
+.tabs {
+    display: flex;
+    margin-bottom: 15px;
+}
+
+.tab-btn {
+    flex: 1;
+    padding: 10px;
+    background-color: #110f50ae;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 17px;
+}
+
+.tab-btn:hover {
+    background-color: #0056b3;
+    color: white;
+    font-weight: 650;
+    font-size: 17px;
+}
+
+.tab-btn.active {
+    background-color: #ffffff;
+    color: black;
+    font-weight: 650;
+    font-size: 17px;
+}
+
+.tab-content {
+    display: none;
+}
+
+.tab-content.active {
+    display: block;
+}
+
+.outputContainerFuel {
+    display: grid;
+}
+
+#fuelCostLabel {
+    margin-bottom: 5px;
 }
