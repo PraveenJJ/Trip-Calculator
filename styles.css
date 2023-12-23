@@ -1,5 +1,5 @@
 body {
-    background-image: url(./images/forest_road_aerial_view_198687_2048x1152.jpg);
+    background-image: url(./images/forest.jpg);
     background-size: cover;
     background-position: center;
     margin: 0;
@@ -155,6 +155,5 @@ h1 {
     display: flex;
     margin-top: -100px;
     margin-bottom: 10px;
-    text-shadow: 2px 0px #000000b5;
-    text-shadow: 2px 0px #000000b5;
+    text-shadow: 4px 3px 8px #000000b5;
 }
