@@ -15,11 +15,16 @@
 <body>
     <div class="app">
         <div class="app-window">
-            <div class="app-container">
+            <div class="tabs">
+                <button class="tab-btn active" onclick="openTab('calculate-distance')">Calculate Distance</button>
+                <button class="tab-btn " onclick="openTab('calculate-fuel')">Calculate Fuel</button>
+            </div>
 
-                <div class="display-1">
-                    <h1 id="header">Trip Calculator</h1>
-                </div>
+
+            <div class="calculate-distance tab-content active" id="calculate-distance">
+                <!-- <div class="display-1">
+                    <h1 id="header">Distance Calculator</h1>
+                </div> -->
 
                 <form class="row g-3" id="form" onsubmit="return false">
                     <div class="col-12">
@@ -59,6 +64,40 @@
                 </div>
 
             </div>
+
+            <div class="calculate-fuel tab-content" id="calculate-fuel">
+                <!-- <div class="display-1">
+                    <h1 id="header">Fuel Calculator</h1>
+                </div> -->
+
+                <form class="row g-3" id="form" onsubmit="return false">
+                    <div class="col-12">
+                        <label for="distanceToTravelF" class="form-label">Enter distance you wish to travel in kms</label>
+                        <input type="tel" class="form-control" id="distanceToTravelF" required>
+                    </div>
+                    <div class="col-12">
+                        <label for="fuelPriceF" class="form-label">Enter fuel price in Rs.</label>
+                        <input type="tel" class="form-control" id="fuelPriceF" pattern="[0-9]+(\.[0-9]+)?" value="101.95"
+                            required>
+                    </div>
+                    <div class="col-12">
+                        <label for="mileageF" class="form-label">Enter mileage per litre</label>
+                        <input type="tel" class="form-control" id="mileageF" value="45" required>
+                    </div>
+
+                    <div class="d-grid gap-2 col-12 mx-auto" id="calculate">
+                        <button type="submit" class="btn btn-primary" onclick="validateAndCalculateFuelCost()"
+                            id="calculateButton">Calculate
+                            Fuel Cost</button>
+                    </div>
+                </form>
+
+                <div class="outputContainerFuel">
+                    <label for="fuelCostF" id="fuelCostLabel">Fuel Cost</label>
+                    <div id="fuelCostF" class="odometer"></div>
+                </div>
+            </div>
+
         </div>
 
     </div>
