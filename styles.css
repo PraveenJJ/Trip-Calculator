@@ -149,11 +149,11 @@ h1 {
 #title {
     color: white;
     font-weight: 750;
-    font-size: 40px;
+    font-size: 45px;
     justify-content: center;
     margin-top: -100px;
     display: inline;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
     display: flex;
     text-shadow: 2px 0px #000000b5;
 }
