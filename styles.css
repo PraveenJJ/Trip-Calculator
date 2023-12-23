@@ -112,21 +112,21 @@ h1 {
     color: black;
     border: none;
     cursor: pointer;
-    font-size: 17px;
+    font-size: 18px;
 }
 
 .tab-btn:hover {
     background-color: #0056b3;
     color: white;
-    font-weight: 650;
-    font-size: 17px;
+    font-weight: 750;
+    font-size: 18px;
 }
 
 .tab-btn.active {
     background-color: #ffffff;
-    color: black;
-    font-weight: 650;
-    font-size: 17px;
+    color: blue;
+    font-weight: 750;
+    font-size: 18px;
 }
 
 .tab-content {
