@@ -151,9 +151,9 @@ h1 {
     font-weight: 750;
     font-size: 40px;
     justify-content: center;
-    margin-top: -50px;
+    margin-top: -150px;
     display: inline;
     margin-bottom: 10px;
     display: flex;
-    text-shadow: 3px 0px #000000b5;
+    text-shadow: 2px 0px #000000b5;
 }
