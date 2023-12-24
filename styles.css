@@ -13,6 +13,7 @@ body {
 
 .form-control {
     border: 2px solid #0000004d !important;
+    margin-bottom: -6px;
 }
 
 .outputContainer {
@@ -66,7 +67,7 @@ body {
 }
 
 .app-window {
-    width: 350px;
+    width: 320px;
     background-color: #ffffff;
     border-radius: 10px;
     box-shadow: 0px 0px 20px rgb(0, 0, 0);
@@ -79,14 +80,14 @@ body {
     padding: 20px;
     display: flex;
     flex-direction: column;
-    margin-top: -20px;
+    margin-top: -25px;
 }
 
 .calculate-fuel {
     padding: 20px;
     display: flex;
     flex-direction: column;
-    margin-top: -20px;
+    margin-top: -25px;
 }
 
 h1 {
@@ -95,8 +96,8 @@ h1 {
 }
 
 .odometer {
-    font-size: 40px;
-    margin-top: -0px;
+    font-size: 30px;
+    margin-top: -8px;
 }
 
 /* new */
@@ -142,7 +143,7 @@ h1 {
 }
 
 #fuelCostLabel {
-    margin-bottom: 5px;
+    margin-bottom: 9px;
 }
 
 #title {
