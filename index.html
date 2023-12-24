@@ -21,8 +21,8 @@
         </div>
         <div class="app-window">
             <div class="tabs">
-                <button class="tab-btn active" onclick="openTab('calculate-distance')">Calculate Distance</button>
-                <button class="tab-btn " onclick="openTab('calculate-fuel')">Calculate Fuel</button>
+                <button class="tab-btn active" onclick="openTab('calculate-distance')">Distance</button>
+                <button class="tab-btn " onclick="openTab('calculate-fuel')">Fuel</button>
             </div>
 
 
@@ -33,7 +33,7 @@
 
                 <form class="row g-3" id="form" onsubmit="return false">
                     <div class="col-12">
-                        <label for="fuelAmount" class="form-label">Enter amount spent on Fuel</label>
+                        <label for="fuelAmount" class="form-label">Enter amount spent on Fuel (Rs.)</label>
                         <input type="tel" class="form-control" id="fuelAmount" required>
                     </div>
                     <div class="col-12">
@@ -41,12 +41,12 @@
                         <input type="tel" class="form-control" id="currentOdometer" required>
                     </div>
                     <div class="col-12">
-                        <label for="fuelPrice" class="form-label">Enter fuel price in Rs.</label>
+                        <label for="fuelPrice" class="form-label">Enter fuel price (Rs.)</label>
                         <input type="tel" class="form-control" id="fuelPrice" pattern="[0-9]+(\.[0-9]+)?" value="101.95"
                             required>
                     </div>
                     <div class="col-12">
-                        <label for="mileage" class="form-label">Enter mileage per litre</label>
+                        <label for="mileage" class="form-label">Enter vehicle's mileage (kms/ltr)</label>
                         <input type="tel" class="form-control" id="mileage" value="45" required>
                     </div>
 
@@ -77,16 +77,16 @@
 
                 <form class="row g-3" id="form" onsubmit="return false">
                     <div class="col-12">
-                        <label for="distanceToTravelF" class="form-label">Enter travel distance (kms).</label>
+                        <label for="distanceToTravelF" class="form-label">Enter travel distance (kms)</label>
                         <input type="tel" class="form-control" id="distanceToTravelF" required>
                     </div>
                     <div class="col-12">
-                        <label for="fuelPriceF" class="form-label">Enter fuel price in Rs.</label>
+                        <label for="fuelPriceF" class="form-label">Enter fuel price (Rs.)</label>
                         <input type="tel" class="form-control" id="fuelPriceF" pattern="[0-9]+(\.[0-9]+)?"
                             value="101.95" required>
                     </div>
                     <div class="col-12">
-                        <label for="mileageF" class="form-label">Enter mileage per litre</label>
+                        <label for="mileageF" class="form-label">Enter vehicle's mileage (kms/ltr)</label>
                         <input type="tel" class="form-control" id="mileageF" value="45" required>
                     </div>
 

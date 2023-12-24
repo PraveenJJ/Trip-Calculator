@@ -125,7 +125,7 @@ h1 {
 .tab-btn.active {
     background-color: #ffffff;
     color: blue;
-    font-weight: 750;
+    font-weight: 500;
     font-size: 18px;
 }
 
@@ -148,7 +148,7 @@ h1 {
 #title {
     color: white;
     font-size: 40px;
-    font-weight: 750;
+    font-weight: 300;
     justify-content: center;
     display: inline;
     display: flex;
